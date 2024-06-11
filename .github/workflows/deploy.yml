@@ -17,7 +17,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: https://github.com/vovakovbasyuk/goit-js-hw-09
+        uses: vovakovbasyuk
         with:
           branch: gh-pages
           folder: dist
